@@ -1,0 +1,14 @@
+h2 {
+    color: rgb(70, 199, 70)
+}
+
+app-child {
+    color: goldenrod;
+    display: inline;
+    &::before {
+        content: 'o--o ';
+        display: inline;
+        color: rgb(0, 167, 167);
+        font-weight: 900;
+    }
+}
